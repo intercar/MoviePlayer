@@ -13,6 +13,9 @@
 		EACC355929DAC55A00A3F3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACC355729DAC55A00A3F3D9 /* Main.storyboard */; };
 		EACC355B29DAC55B00A3F3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACC355A29DAC55B00A3F3D9 /* Assets.xcassets */; };
 		EACC355E29DAC55B00A3F3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACC355C29DAC55B00A3F3D9 /* LaunchScreen.storyboard */; };
+		EACC356929DAC62A00A3F3D9 /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EACC356629DAC62A00A3F3D9 /* FastTyping.mp4 */; };
+		EACC356A29DAC62A00A3F3D9 /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EACC356729DAC62A00A3F3D9 /* FastTyping.jpg */; };
+		EACC356B29DAC62A00A3F3D9 /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EACC356829DAC62A00A3F3D9 /* Fireworks.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EACC355A29DAC55B00A3F3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EACC355D29DAC55B00A3F3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EACC355F29DAC55B00A3F3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACC356629DAC62A00A3F3D9 /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
+		EACC356729DAC62A00A3F3D9 /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
+		EACC356829DAC62A00A3F3D9 /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		EACC355029DAC55A00A3F3D9 /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				EACC356529DAC60000A3F3D9 /* Resources */,
 				EACC355129DAC55A00A3F3D9 /* AppDelegate.swift */,
 				EACC355329DAC55A00A3F3D9 /* SceneDelegate.swift */,
 				EACC355529DAC55A00A3F3D9 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				EACC355F29DAC55B00A3F3D9 /* Info.plist */,
 			);
 			path = MoviePlayer;
+			sourceTree = "<group>";
+		};
+		EACC356529DAC60000A3F3D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EACC356729DAC62A00A3F3D9 /* FastTyping.jpg */,
+				EACC356629DAC62A00A3F3D9 /* FastTyping.mp4 */,
+				EACC356829DAC62A00A3F3D9 /* Fireworks.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +144,9 @@
 			files = (
 				EACC355E29DAC55B00A3F3D9 /* LaunchScreen.storyboard in Resources */,
 				EACC355B29DAC55B00A3F3D9 /* Assets.xcassets in Resources */,
+				EACC356A29DAC62A00A3F3D9 /* FastTyping.jpg in Resources */,
+				EACC356929DAC62A00A3F3D9 /* FastTyping.mp4 in Resources */,
+				EACC356B29DAC62A00A3F3D9 /* Fireworks.jpg in Resources */,
 				EACC355929DAC55A00A3F3D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
